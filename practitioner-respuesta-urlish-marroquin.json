@@ -1,0 +1,73 @@
+{
+    "resourceType": "Practitioner",
+    "id": "809232",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-09-04T06:51:24.166+00:00",
+        "source": "#S6REunyKt9A96o97"
+    },
+    "identifier": [
+        {
+            "system": "http://colegio.de.medicos.org/identifiers",
+            "value": "MED123456"
+        }
+    ],
+    "name": [
+        {
+            "use": "official",
+            "family": "Marroquin",
+            "given": [
+                "Urlish",
+                "Kleyber"
+            ],
+            "prefix": [
+                "Dr."
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+51-943-204-706",
+            "use": "mobile"
+        },
+        {
+            "system": "email",
+            "value": "urlish.marroquin@gmail.com",
+            "use": "work"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1988-09-28",
+    "address": [
+        {
+            "use": "work",
+            "line": [
+                "Jirón Centenario 348 Dep. 309-B"
+            ],
+            "city": "Lima",
+            "postalCode": "15082",
+            "country": "ES"
+        }
+    ],
+    "qualification": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+                        "code": "ME",
+                        "display": "Master of Engineering"
+                    }
+                ],
+                "text": "Master de Ingeniería"
+            },
+            "period": {
+                "start": "2016"
+            },
+            "issuer": {
+                "display": "Universidad Peruana Unión"
+            }
+        }
+    ]
+}
