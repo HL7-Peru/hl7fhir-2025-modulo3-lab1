@@ -1,0 +1,61 @@
+{
+	"resourceType": "Practitioner",
+	"text": {
+        	"status": "generated",
+    		"div": "<div xmlns='http://www.w3.org/1999/xhtml'>Dr. Bryan Augusto Granda (CMP: 081389), Medico Cirujano, Universidad Nacional Mayor de San Marcos</div>"
+    		},
+	"identifier":[
+		{
+			"system": "https://aplicaciones.cmp.org.pe/conoce_a_tu_medico/",
+			"value":"081389"
+		}
+	],
+	"name":[
+		{
+			"use":"official",
+			"family":"Granda",
+			"given":["Bryan","Augusto"],
+			"prefix":["Dr."]
+		}
+	],
+	"telecom":[
+		{
+			"system":"phone",
+			"value":"+51980808090",
+			"use":"mobile"
+		},
+		{
+			"system":"email",
+			"value":"bryangrar16@gmail.com",
+			"use":"work"
+		}
+	],
+	"address":[
+		{
+			"use":"work",
+			"line":["Av. Angamos Oeste 2520"],
+			"city":"Surquillo",
+			"postalCode":"15036",
+			"country":"PE"
+		}
+	],
+	"gender":"male",
+	"birthDate":"1991-05-16",
+	"qualification":[{
+		"code":{
+			"coding":[{
+				"system":"http://terminology.hl7.org/CodeSystem/v2-0360",
+				"code":"MD",
+				"display":"Doctor of Medicine"
+			}],
+			"text":"Medico Cirujano"
+		},
+		"period":{
+			"start":"1995"
+		},
+		"issuer":{
+			"display":"Universidad Nacional Mayor de San Marcos"
+		}
+	}]
+
+}
