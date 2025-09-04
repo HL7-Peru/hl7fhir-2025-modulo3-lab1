@@ -1,0 +1,37 @@
+{
+   "resourceType": "Patient",
+    "identifier": [
+      {
+         "system": "http://preuba.gob.pe",
+         "value": "706926"
+      },
+{
+         "system": "http://hl7peru.org/numerohistoria",
+         "value": "47201"
+      }
+   ],
+   "name": [
+      {
+         "family": 
+            "Gonzales",
+         "given": [
+            "Manuel"
+         ]
+      }
+   ],
+   "telecom": [
+      {
+         "system": "phone",
+         "value": "969714324"
+      }
+   ],
+   "gender": "male",
+   "birthDate": "1991-12-18",
+   "address": [
+      {
+         "text": "Urb. Confecciones Militares MZ E Lte 11",
+         "city": "Lima",
+         "district": "Bellavista"
+      }
+   ]
+}
