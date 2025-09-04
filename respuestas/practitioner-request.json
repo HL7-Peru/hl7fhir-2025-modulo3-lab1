@@ -1,0 +1,60 @@
+{
+    "resourceType": "Practitioner",
+    "identifier": [
+      {
+        "system": "http://colegiode.medicos.org/identifiers",
+        "value": "MED75441778"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": "Machuca",
+        "given": ["David", "Balbino"],
+        "prefix": ["Dr."]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+51-921-899-826",
+        "use": "mobile"
+      },
+      {
+        "system": "email",
+        "value": "david.machuca@gmail.com",
+        "use": "work"
+      }
+    ],
+    "address": [
+      {
+        "use": "work",
+        "line": ["Calle edgardo tello 123"],
+        "city": "Lima",
+        "postalCode": "15001",
+        "country": "PE"
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1997-10-10",
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7",
+              "code": "MD",
+              "display": "Medico"
+            }
+          ],
+          "text": "Medico"
+        },
+        "period": {
+          "start": "2025"
+        },
+        "issuer": {
+          "display": "Universidad de Lima"
+        }
+      }
+    ]
+  }
