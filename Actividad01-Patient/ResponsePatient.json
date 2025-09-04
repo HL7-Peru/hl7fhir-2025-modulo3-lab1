@@ -1,0 +1,50 @@
+{
+    "resourceType": "Patient",
+    "id": "809229",
+    "meta": {
+        "versionId": "1",
+        "lastUpdated": "2025-09-04T04:24:56.488+00:00",
+        "source": "#fGGLraz2tVOjsPC5"
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Valdera Diego <b>VALDERA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>76348637</td></tr><tr><td>Address</td><td><span>Lima </span><span>Perú </span></td></tr><tr><td>Date of birth</td><td><span>24 February 1994</span></td></tr></tbody></table></div>"
+    },
+    "identifier": [
+        {
+            "system": "http://hl7peru.org/dni",
+            "value": "76348637"
+        },
+        {
+            "system": "http://hl7peru.org/numerohistoria",
+            "value": "45631"
+        }
+    ],
+    "name": [
+        {
+            "family": "Valdera",
+            "given": [
+                "Valdera",
+                "Diego"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+51-977636689",
+            "use": "mobile"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1994-02-24",
+    "address": [
+        {
+            "text": "Av. 26 de Noviembre 1953",
+            "city": "Lima",
+            "district": "Lima",
+            "postalCode": "15824",
+            "country": "Perú"
+        }
+    ]
+}
